@@ -40,6 +40,10 @@ code {
 	font-family: 'Inconsolata', monospace;
 }
 
+.code {
+	font-family: 'Inconsolata', monospace;	
+}
+
 h1 {
     margin: 4% 0 2% 0;
 }
@@ -98,8 +102,24 @@ h1 {
 	float: left;
 }
 
+.strike {
+	text-decoration: line-through;
+}
+
 .fullwidth table {
 	width: 100%;
+}
+
+.fs80 {
+	font-size: 80%;
+}
+
+.fs90 {
+	font-size: 90%;
+}
+
+.fs75 {
+	font-size: 75%;
 }
 
 .ul-condensed ul,
@@ -109,4 +129,8 @@ h1 {
 
 .ul-font-size-80-pct ul {
 	font-size: 80%;
+}
+
+.pre-wrap pre {
+	white-space: pre-wrap;
 }
