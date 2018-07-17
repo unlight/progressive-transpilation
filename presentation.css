@@ -44,6 +44,10 @@ code {
 	font-family: 'Inconsolata', monospace;	
 }
 
+pre {
+	white-space: pre-wrap;
+}
+
 h1 {
     margin: 4% 0 2% 0;
 }
