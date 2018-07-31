@@ -191,6 +191,14 @@ https://kangax.github.io/compat-table/
 ???
 Есть такая таблица kangax.github.io, в которой собрана информация о поддержке фич в разных браузерах.
 ---
+class: h1-condensed, image80
+# Select ES6 support browsers
+https://github.com/mdn/browser-compat-data
+![](https://raw.githubusercontent.com/unlight/progressive-transpilation/gh-pages/mdn_class.png)
+???
+Альтернативный источник - mdn/browser-compat-data, там подобные таблицы раскиданы по разным страницам, одна таблица на фичу.  
+Но есть json с данным, который можно использовать в автоматизированной обработке.
+---
 # Browsers with ES6 support
 Our ES6 browsers are:
 ```
