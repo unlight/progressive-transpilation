@@ -25,7 +25,7 @@ class: h1-condensed
 Если вы знаете что такое Progressive Enhancement, то вы поймете о чем сегодня будет доклад.  
 Второе, Transpiling, это составное слово и состоит trans + compile, т.е. это перевод из одного исходного кода в другой.
 ---
-![](https://raw.githubusercontent.com/unlight/progressive-transpilation/master/tc-babel-6to5.png)
+![](https://raw.githubusercontent.com/unlight/progressive-transpilation/gh-pages/tc-babel-6to5.png)
 ???
 Изначально когда появились первые транспайлеры, они создавались с целью перевода ES6 кода в ES5,
 т.е., перевести современный код, который на тот момент не все могли исполнять, в старый, который понимали все браузеры.  
@@ -100,7 +100,7 @@ class: h1-condensed
 Как же они это делают?
 ---
 # Progressive Transpilation
-![](https://raw.githubusercontent.com/unlight/progressive-transpilation/master/fountain.gif)
+![](https://raw.githubusercontent.com/unlight/progressive-transpilation/gh-pages/fountain.gif)
 * Modern - ES2015
 * Trailing - Transpile to ES5, polyfill ES2015
 * Legacy - Transpile to ES5, polyfill ES2015, polyfill ES5
@@ -187,7 +187,7 @@ Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
 class: h1-condensed, image80
 # Select ES6 support browsers
 https://kangax.github.io/compat-table/
-![](https://raw.githubusercontent.com/unlight/progressive-transpilation/master/kangax.github.io_compat-table_es6_.png)
+![](https://raw.githubusercontent.com/unlight/progressive-transpilation/gh-pages/kangax.github.io_compat-table_es6_.png)
 ???
 Есть такая таблица kangax.github.io, в которой собрана информация о поддержке фич в разных браузерах.
 ---
@@ -231,7 +231,7 @@ function supportsES6(headers) {
 Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
 ]
 .center[
-![](https://raw.githubusercontent.com/unlight/progressive-transpilation/master/fake-chrome2.jpg)
+![](https://raw.githubusercontent.com/unlight/progressive-transpilation/gh-pages/fake-chrome2.jpg)
 ]
 * New browser
 * Browser plugin
